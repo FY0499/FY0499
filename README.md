@@ -8,15 +8,15 @@ I'm a Data Science and AI graduate focused on building practical AI solutions, A
 
 My current focus is **AI Agents, multi-agent systems, Generative AI, and workflow automation with n8n**. I'm building a portfolio of practical projects to explore how AI can support everyday business processes.
 
-## 🚀 My 10 AI Automation Projects
+## 🚀 Featured Projects: AI Agents & Automation
 
-A collection of n8n workflow projects covering customer support, content creation, business operations, data extraction, and multi-agent systems.
+My portfolio of n8n workflow projects covering multi-agent orchestration, customer support, content creation, business operations, and data extraction.
 
 | # | Project | What it does |
 |---|---|---|
-| 01 | [Telegram AI Customer Support](https://github.com/FY0499/Telegram-AI-Customer-Support) | Telegram-based AI support assistant designed to answer customer questions and route complex cases for human follow-up. |
+| 01 | [Dobi Kitchen Multi-Agent Assistant](https://github.com/FY0499/Dobi-Kitchen-Multi-Agent-Assistant) | Multi-agent workflow concept that routes food-business order, cancellation, and delivery requests to specialist agents. |
 | 02 | [Multi-Agent Management Orchestrator](https://github.com/FY0499/Multi-Agent-Management-Orchestrator) | Coordinates specialized agents to provide business insights and recommendations for management requests. |
-| 03 | [Dobi Kitchen Multi-Agent Assistant](https://github.com/FY0499/Dobi-Kitchen-Multi-Agent-Assistant) | A multi-agent assistant concept for food-business order, cancellation, and delivery conversations. |
+| 03 | [Telegram AI Customer Support](https://github.com/FY0499/Telegram-AI-Customer-Support) | Telegram-based AI support assistant designed to answer customer questions and route complex cases for human follow-up. |
 | 04 | [AI Content Repurposer](https://github.com/FY0499/AI-Content-Repurposer) | Converts source content into platform-specific drafts for LinkedIn, X, and Instagram. |
 | 05 | [AI Travel Planner](https://github.com/FY0499/AI-Travel-Planner) | A travel-planning workflow concept that uses trip preferences and external data sources to build an itinerary. |
 | 06 | [AI Phishing Email Triage](https://github.com/FY0499/AI-Phishing-Email-Triage) | Helps classify suspicious email content and route potential phishing messages for review. |
