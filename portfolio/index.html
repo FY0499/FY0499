@@ -1,31 +1,194 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Farah Al-Masa’deh — Data Science & AI graduate building practical AI agents, computer vision prototypes, and workflow automation.">
-<title>Farah Al-Masa’deh | Data Science & AI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Farah Almasa’deh — Data Science & AI Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
 <style>
-:root{color-scheme:light dark;--bg:#f2f5f9;--card:#fff;--ink:#101828;--muted:#566176;--line:#d5dce6;--accent:#2b4eff;--green:#12805f}
-@media(prefers-color-scheme:dark){:root{--bg:#0e1420;--card:#161e2e;--ink:#e8edf6;--muted:#9aa6bc;--line:#2a3448;--accent:#91a3ff;--green:#4cd3a6}}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}a{color:var(--accent)}.wrap{max-width:1000px;margin:auto;padding:0 24px}nav{display:flex;justify-content:flex-end;gap:20px;flex-wrap:wrap;padding:22px 0}nav a{text-decoration:none;color:var(--muted)}.hero{padding:70px 0 64px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}h1{font-size:clamp(42px,7vw,76px);line-height:1.02;letter-spacing:-.04em;margin:0 0 18px}.role{font-size:clamp(20px,3vw,26px);color:var(--accent);margin:0 0 16px}.lead{color:var(--muted);max-width:65ch}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{padding:11px 17px;border:1px solid var(--line);border-radius:9px;text-decoration:none;font-weight:650}.btn.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}.visual{min-height:260px;border:1px solid var(--line);border-radius:18px;background:var(--card);display:grid;place-items:center;padding:28px;text-align:center}.visual svg{max-width:100%;height:auto}section{padding:48px 0;border-top:1px solid var(--line)}h2{font-size:clamp(28px,4vw,38px);line-height:1.15;margin:0 0 24px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}.card h3{margin:0 0 8px;font-size:20px}.card p{color:var(--muted);margin:0 0 14px}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--green);font-weight:700}.tags{display:flex;gap:8px;flex-wrap:wrap}.tags span{padding:5px 11px;border:1px solid var(--line);border-radius:99px;font-size:14px}.timeline{display:grid;grid-template-columns:180px 1fr;gap:18px;padding:20px 0;border-bottom:1px solid var(--line)}.muted{color:var(--muted)}footer{padding:28px 0 40px;color:var(--muted);border-top:1px solid var(--line)}@media(max-width:700px){.hero{grid-template-columns:1fr;padding-top:40px}.visual{min-height:200px}.timeline{grid-template-columns:1fr}nav{justify-content:flex-start}}
+:root{--bg:#F2F5F9;--surface:#FFFFFF;--ink:#101828;--muted:#566176;--line:#D5DCE6;--accent:#2B4EFF;--accent2:#12805F;
+--head:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;--body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0E1420;--surface:#161E2E;--ink:#E8EDF6;--muted:#9AA6BC;--line:#2A3448;--accent:#7C94FF;--accent2:#4CD3A6}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0E1420;--surface:#161E2E;--ink:#E8EDF6;--muted:#9AA6BC;--line:#2A3448;--accent:#7C94FF;--accent2:#4CD3A6}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--body)}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+nav{display:flex;gap:22px;justify-content:flex-end;padding:22px 0;font-size:15px;flex-wrap:wrap}
+nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--ink)}
+.hero{display:grid;grid-template-columns:1.15fr 1fr;gap:32px;align-items:center;padding:24px 0 72px}
+h1{font:800 clamp(44px,7vw,84px)/0.98 var(--head);letter-spacing:-.03em;margin:0 0 20px}
+.role{font:500 clamp(19px,2.4vw,24px)/1.3 var(--head);color:var(--accent);margin:0 0 18px}
+.lead{color:var(--muted);max-width:52ch;margin:0 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;border:1.5px solid var(--ink);text-decoration:none;font-weight:500;font-size:16px}
+.btn.p{background:var(--ink);color:var(--bg)}
+.btn:hover{border-color:var(--accent)}
+.vision{position:relative;aspect-ratio:1/1;width:100%;max-width:440px;justify-self:end;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+canvas{width:100%;height:100%;display:block}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font:700 clamp(28px,4vw,40px)/1.1 var(--head);letter-spacing:-.02em;margin:0 0 32px}
+.row{display:grid;grid-template-columns:190px 1fr;gap:12px 32px;padding:22px 0;border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:0}
+.when{color:var(--muted);font-size:15px}
+h3{font:700 22px/1.25 var(--head);margin:0 0 4px}
+.org{color:var(--accent2);font-weight:500;margin:0 0 10px;font-size:15px}
+ul{margin:0;padding-left:20px}li{margin:4px 0}
+.wf{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:6px}
+.wf div{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent2);border-radius:8px;padding:14px 16px}
+.wf b{display:block;font:700 17px/1.3 var(--head);margin-bottom:4px}
+.wf span{color:var(--muted);font-size:15px;line-height:1.5;display:block}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px}
+.cols h3{font-size:18px}
+.cols p{margin:0;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{border:1px solid var(--line);background:var(--surface);padding:4px 12px;border-radius:999px;font-size:15px}
+.contact a{display:block;font:600 clamp(22px,3.4vw,32px)/1.5 var(--head);text-decoration:none;word-break:break-word}
+.contact a:hover{color:var(--accent)}
+footer{padding:32px 0 48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+@media (max-width:760px){.hero{grid-template-columns:1fr}.vision{justify-self:center}.row{grid-template-columns:1fr}nav{justify-content:flex-start}}
 </style>
 </head>
-<body><div class="wrap">
-<nav aria-label="Main navigation"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
-<header class="hero"><div><p class="eyebrow">Portfolio · Aqaba, Jordan</p><h1>Farah Al-Masa’deh</h1><p class="role">Data Science & AI Graduate</p><p class="lead">I build practical AI projects across assistive computer vision, sign-language-related prototypes, AI agents, and workflow automation. I care about clear documentation, responsible testing, and solutions that address real problems.</p><div class="buttons"><a class="btn primary" href="#projects">Explore projects</a><a class="btn" href="https://www.linkedin.com/in/farah-almasaadeh-a92a7b266">Connect on LinkedIn</a></div></div>
-<div class="visual" role="img" aria-label="Decorative illustration representing AI and connected workflows"><svg viewBox="0 0 300 230" width="300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g fill="none" stroke="var(--accent)" stroke-width="2"><path d="M150 42 L72 98 L150 150 L228 98 Z"/><path d="M72 98 L72 170 L150 205 L228 170 L228 98"/><path d="M150 42 L150 150 L150 205"/></g><g fill="var(--card)" stroke="var(--green)" stroke-width="3"><circle cx="150" cy="42" r="15"/><circle cx="72" cy="98" r="15"/><circle cx="228" cy="98" r="15"/><circle cx="150" cy="150" r="18"/><circle cx="72" cy="170" r="12"/><circle cx="228" cy="170" r="12"/><circle cx="150" cy="205" r="10"/></g><g fill="var(--ink)" font-family="system-ui" font-size="11" text-anchor="middle"><text x="150" y="19">AI</text><text x="150" y="181">Agents</text></g></svg><p class="muted">AI · Computer Vision · Automation</p></div></header>
-<section id="about"><h2>About</h2><p class="lead">I’m a Data Science and Artificial Intelligence graduate from Al-Hussein Bin Talal University. My project experience includes assistive computer vision and sign-language-related prototypes, alongside practical workflow automation with n8n. I also completed an IT internship at the Aqaba Special Economic Zone Authority (ASEZA).</p></section>
-<section id="projects"><h2>Selected Projects</h2><div class="cards">
-<article class="card"><p class="eyebrow">Assistive AI · Computer Vision</p><h3>Smart Vision System</h3><p>Python prototype exploring object detection, OCR, relative depth estimation, and Arabic scene descriptions for assistive guidance.</p><a href="https://github.com/FY0499/blind">View repository →</a></article>
-<article class="card"><p class="eyebrow">Multi-agent · n8n</p><h3>Dobi Kitchen Assistant</h3><p>Workflow concept routing customer requests to specialist paths for orders, cancellations, and delivery questions.</p><a href="https://github.com/FY0499/Dobi-Kitchen-Multi-Agent-Assistant">View repository →</a></article>
-<article class="card"><p class="eyebrow">AI Support · Telegram</p><h3>Telegram AI Customer Support</h3><p>Customer-support workflow prototype with an intended escalation path for cases needing human assistance.</p><a href="https://github.com/FY0499/Telegram-AI-Customer-Support">View repository →</a></article>
-<article class="card"><p class="eyebrow">Sign-language prototype</p><h3>ASL Video Translator</h3><p>Experimental video-analysis prototype using MediaPipe landmarks and a model-assisted interpretation workflow.</p><a href="https://github.com/FY0499/STT">View repository →</a></article>
-<article class="card"><p class="eyebrow">Text to sign video</p><h3>Sign Language Video Generator</h3><p>Python prototype assembling sign-language video clips from text using a sign dictionary.</p><a href="https://github.com/FY0499/TTS">View repository →</a></article>
-<article class="card"><p class="eyebrow">Automation · n8n</p><h3>AI Content Repurposer</h3><p>Workflow concept for transforming source content into drafts tailored to different social platforms.</p><a href="https://github.com/FY0499/AI-Content-Repurposer">View repository →</a></article>
-</div><p class="muted">Project descriptions reflect repository documentation. Some projects are prototypes and require environment configuration and end-to-end testing; see each repository for current status and limitations.</p></section>
-<section id="experience"><h2>Experience & Education</h2><div class="timeline"><div class="muted">IT Internship · 8 weeks</div><div><h3>IT Intern</h3><p class="muted">Aqaba Special Economic Zone Authority (ASEZA)</p><p>Exposure to IT support, Active Directory, hardware troubleshooting, system imaging, and network services such as DNS and DHCP.</p></div></div><div class="timeline"><div class="muted">2022–2026</div><div><h3>B.Sc. Data Science & Artificial Intelligence</h3><p class="muted">Al-Hussein Bin Talal University</p></div></div></section>
-<section id="skills"><h2>Skills & Interests</h2><div class="tags"><span>Python</span><span>n8n</span><span>AI Agents</span><span>Generative AI</span><span>Computer Vision</span><span>Machine Learning</span><span>OpenCV</span><span>MediaPipe</span><span>API Integration</span><span>Workflow Design</span><span>Git & GitHub</span><span>Data Analysis</span><span>IT Support</span></div><p class="muted">Tools and skills listed here are based on the projects and experience described in my portfolio. I continue to develop my skills through hands-on projects.</p></section>
-<section id="contact"><h2>Let’s connect</h2><p class="lead">For opportunities, collaboration, or project discussions, feel free to connect through LinkedIn or GitHub.</p><div class="buttons"><a class="btn primary" href="https://www.linkedin.com/in/farah-almasaadeh-a92a7b266">LinkedIn</a><a class="btn" href="https://github.com/FY0499">GitHub</a></div></section>
-<footer>Farah Al-Masa’deh · Aqaba, Jordan · <a href="https://github.com/FY0499">GitHub</a></footer>
-</div></body></html>
+<body>
+<div class="wrap">
+<nav aria-label="Main"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+  <div>
+    <h1>Farah Almasa’deh</h1>
+    <p class="role">Data Science & AI Engineer</p>
+    <p class="lead">I build computer vision systems and agentic automation workflows that make technology more accessible and save people time.</p>
+    <div class="btns"><a class="btn p" href="#projects">See my projects</a><a class="btn" href="#contact">Get in touch</a></div>
+  </div>
+  <div class="vision" role="img" aria-label="Animated hand landmark detection, a nod to my sign language recognition project">
+    <canvas id="c"></canvas>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p class="lead" style="max-width:68ch">I’m a Data Science and Artificial Intelligence graduate from Al-Hussein Bin Talal University, specializing in intelligent automation and computer vision. I’ve built vision-based assistive technology for a three-month graduation project, completed an IT internship at the Aqaba Special Economic Zone Authority, and deployed more than seven automation and agentic workflows with n8n and Python.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="row">
+    <div class="when">Oct 2025 – Jan 2026<br>Graduation project</div>
+    <div>
+      <h3>AI Assistant for Visually & Hearing Impaired</h3>
+      <p class="org">Al-Hussein Bin Talal University, Ma’an</p>
+      <ul>
+        <li>Built an accessibility system powered by computer vision and machine learning.</li>
+        <li>Developed and fine-tuned gesture recognition and sign language translation models.</li>
+        <li>Optimized data preprocessing for real-time execution.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="when">Personal portfolio<br>7+ workflows deployed</div>
+    <div>
+      <h3>AI Automation Workflows</h3>
+      <p class="org">n8n & Python</p>
+      <div class="wf">
+        <div><b>HR screening system</b><span>A multi-agent autonomous workflow that screens candidates automatically.</span></div>
+        <div><b>Telegram order bot</b><span>A smart bot that manages customer orders through Telegram.</span></div>
+        <div><b>PDF text extraction</b><span>Automated extraction of text from PDF documents.</span></div>
+        <div><b>Sentiment analysis</b><span>Pipelines that classify the sentiment of incoming text.</span></div>
+        <div><b>Smart sales reporting</b><span>Automates sales data collection and report generation.</span></div>
+      </div>
+      <p style="margin:16px 0 0"><a href="https://github.com/FY0499">Workflows and source code on GitHub</a></p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="row">
+    <div class="when">Feb 2026 – Apr 2026<br>Aqaba, Jordan</div>
+    <div>
+      <h3>IT Intern</h3>
+      <p class="org">Aqaba Special Economic Zone Authority (ASEZA)</p>
+      <ul>
+        <li>Managed Active Directory accounts and domain joining for enterprise devices.</li>
+        <li>Diagnosed system issues and performed SSD upgrades and hardware replacements.</li>
+        <li>Created and deployed master system images for batch device setup.</li>
+        <li>Supported networking services including DNS and DHCP.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="when">2022 – 2026</div>
+    <div>
+      <h3>B.Sc. Data Science & Artificial Intelligence</h3>
+      <p class="org">Al-Hussein Bin Talal University</p>
+      <p style="margin:0">GPA 3.07 / 4.0 (Very Good)</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="cols">
+    <div><h3>Programming & automation</h3><div class="tags"><span>Python</span><span>n8n</span><span>Agentic workflows</span></div></div>
+    <div><h3>AI & machine learning</h3><div class="tags"><span>Computer vision</span><span>Neural networks</span><span>Model fine-tuning</span><span>Supervised learning</span><span>Feature engineering</span></div></div>
+    <div><h3>Data & IT</h3><div class="tags"><span>Data cleaning & EDA</span><span>Active Directory</span><span>DNS & DHCP</span><span>Hardware troubleshooting</span></div></div>
+  </div>
+  <h3 style="margin:40px 0 12px">Certifications</h3>
+  <ul>
+    <li>AI and Python Developer, 2024 (60 hours)</li>
+    <li>Deep Learning Specialist, 2025 (60 hours)</li>
+    <li>Cloud Computing Fundamentals, 2025 (32 hours)</li>
+  </ul>
+  <p style="color:var(--muted);margin:24px 0 0">Languages: Arabic (fluent), English (intermediate)</p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Let’s work together</h2>
+  <a href="mailto:FarahAlmasaadeh@outlook.com">FarahAlmasaadeh@outlook.com</a>
+  <a href="tel:+962779880190">+962 779880190</a>
+  <a href="https://linkedin.com/in/farah-almasaadeh-a92a7b266">LinkedIn</a>
+  <a href="https://github.com/FY0499">GitHub</a>
+</section>
+<footer>Farah Almasa’deh · Aqaba, Jordan</footer>
+</div>
+
+<script>
+(function(){
+  var cv=document.getElementById('c'),ctx=cv.getContext('2d');
+  var P=[[50,92],[36,82],[26,70],[19,58],[14,47],[40,56],[38,40],[37,28],[36,16],[50,53],[50,36],[50,23],[50,10],[60,56],[62,40],[63,29],[64,19],[69,63],[74,52],[77,43],[80,35]];
+  var B=[[0,1],[1,2],[2,3],[3,4],[0,5],[5,6],[6,7],[7,8],[5,9],[9,10],[10,11],[11,12],[9,13],[13,14],[14,15],[15,16],[13,17],[17,18],[18,19],[19,20],[0,17]];
+  var mx=0,my=0,w=0,h=0,still=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function css(n){return getComputedStyle(document.documentElement).getPropertyValue(n).trim()}
+  function size(){var d=window.devicePixelRatio||1,r=cv.getBoundingClientRect();w=r.width;h=r.height;cv.width=w*d;cv.height=h*d;ctx.setTransform(d,0,0,d,0,0)}
+  function draw(t){
+    var a=css('--accent'),a2=css('--accent2'),ink=css('--ink'),mu=css('--muted');
+    ctx.clearRect(0,0,w,h);
+    var s=w/100,ox=0,oy=0;
+    var pts=P.map(function(p,i){
+      var tip=(i>0&&i%4===0)?1:0;
+      var sw=still?0:Math.sin(t/900+i*.5)*(1+(i/5));
+      return [(p[0]+sw*.4+mx*(i/12))*s*.62+w*.19,(p[1]+Math.cos(t/1100+i)*(still?0:.8)+my*(i/12))*s*.62+h*.17];
+    });
+    ctx.lineWidth=2.5;ctx.strokeStyle=a;ctx.lineCap='round';
+    B.forEach(function(b){ctx.beginPath();ctx.moveTo(pts[b[0]][0],pts[b[0]][1]);ctx.lineTo(pts[b[1]][0],pts[b[1]][1]);ctx.stroke()});
+    pts.forEach(function(p,i){ctx.beginPath();ctx.arc(p[0],p[1],i%4===0&&i>0?5.5:3.5,0,7);ctx.fillStyle=(i%4===0&&i>0)?a2:ink;ctx.fill()});
+    var xs=pts.map(function(p){return p[0]}),ys=pts.map(function(p){return p[1]});
+    var x0=Math.min.apply(null,xs)-14,y0=Math.min.apply(null,ys)-14,x1=Math.max.apply(null,xs)+14,y1=Math.max.apply(null,ys)+14;
+    ctx.lineWidth=1.5;ctx.strokeStyle=a2;ctx.setLineDash([6,5]);ctx.strokeRect(x0,y0,x1-x0,y1-y0);ctx.setLineDash([]);
+    ctx.fillStyle=a2;ctx.fillRect(x0,y0-22,128,22);
+    ctx.fillStyle=css('--surface');ctx.font='600 13px IBM Plex Sans, sans-serif';ctx.fillText('gesture: hello  0.94',x0+8,y0-6);
+    ctx.fillStyle=mu;ctx.font='13px IBM Plex Sans, sans-serif';ctx.fillText('21 landmarks tracked',14,h-14);
+  }
+  function loop(t){draw(t);if(!still)requestAnimationFrame(loop)}
+  var box=cv.parentNode;
+  box.addEventListener('pointermove',function(e){var r=box.getBoundingClientRect();mx=((e.clientX-r.left)/r.width-.5)*10;my=((e.clientY-r.top)/r.height-.5)*10;if(still)draw(0)});
+  window.addEventListener('resize',function(){size();if(still)draw(0)});
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',function(){if(still)draw(0)});
+  size();requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
