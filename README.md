@@ -1,6 +1,8 @@
-# Hi, I'm Farah 👋
+# Hi, I'm Farah Al-Masa’deh 👋
 
 ### Data Science & AI Graduate | AI Agents & Automation
+
+📍 Aqaba, Jordan
 
 I'm a Data Science and AI graduate focused on building practical AI solutions, AI agents, and workflow automations that solve real-world problems.
 
@@ -25,6 +27,13 @@ A collection of n8n workflow projects covering customer support, content creatio
 
 > **Project status:** These repositories may have different levels of implementation and testing. Please check each README for setup requirements, workflow files, and current validation status. They are portfolio projects and should be tested and configured before production use.
 
+## 🧠 Currently Working On
+
+- Building practical AI agent and multi-agent workflows.
+- Exploring LangChain, LangGraph, and LlamaIndex through hands-on projects.
+- Improving workflow automation with n8n and API integrations.
+- Growing a portfolio of practical AI projects and documenting what I learn.
+
 ## 🧠 Areas of Interest
 
 - 🤖 AI Agents and Multi-Agent Systems
@@ -44,13 +53,7 @@ A collection of n8n workflow projects covering customer support, content creatio
 
 - [Blind](https://github.com/FY0499/blind) — Assistive computer vision project.
 - [TTS](https://github.com/FY0499/TTS) — Text-to-Speech project.
-- [STT](https://github.com/FY0499/STT) — Speech-to-Text project.
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FY0499&show_icons=true&hide_border=true&theme=transparent)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FY0499&layout=compact&hide_border=true&theme=transparent)
+- [STT](https://github.com/FY0499/STT) — Sign-language video analysis project.
 
 ## 🤝 Let's Connect
 
