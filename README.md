@@ -4,7 +4,7 @@
 
 I'm a Data Science and AI graduate passionate about building practical AI solutions that solve real-world problems.
 
-My main interests are **AI Agents, Generative AI, and AI Automation**. I build automation workflows with **n8n** and am currently developing projects with LangChain, LangGraph, LlamaIndex, and TypeScript.
+My main interests are **AI Agents, Generative AI, and AI Automation**. I build automation workflows with **n8n** and enjoy creating practical AI solutions.
 
 ### 🚀 Areas of Interest
 
@@ -16,17 +16,9 @@ My main interests are **AI Agents, Generative AI, and AI Automation**. I build a
 
 ### 🛠️ Technologies & Tools
 
-**Used in my work**
-
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)](https://n8n.io/)
-
-**Currently building projects with**
-
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)](https://www.langchain.com/)
-[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/langgraph)
-[![LlamaIndex](https://img.shields.io/badge/LlamaIndex-6B46C1?style=for-the-badge&logo=llama&logoColor=white)](https://www.llamaindex.ai/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FY0499)
 
 ### 📂 Featured Projects
 
