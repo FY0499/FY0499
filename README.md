@@ -55,6 +55,12 @@ My portfolio of n8n workflow projects covering multi-agent orchestration, custom
 - [TTS](https://github.com/FY0499/TTS) — Text-to-Speech project.
 - [STT](https://github.com/FY0499/STT) — Sign-language video analysis project.
 
+## 🌐 Portfolio Website
+
+Explore my portfolio website for selected projects, technical interests, and contact links:
+
+**[Visit my Portfolio](https://fy0499.github.io/FY0499/portfolio/)**
+
 ## 🤝 Let's Connect
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/farah-almasaadeh-a92a7b266)
