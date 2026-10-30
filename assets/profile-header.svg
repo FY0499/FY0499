@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Farah Al-Masa’deh — Data Science and AI</title>
+  <desc id="desc">AI Agents, Generative AI, and Workflow Automation</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1224"/>
+      <stop offset="55%" stop-color="#101d35"/>
+      <stop offset="100%" stop-color="#1a1640"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38d6c5"/>
+      <stop offset="100%" stop-color="#9b8cff"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38d6c5" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#9b8cff" stop-opacity=".08"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="26" fill="url(#bg)"/>
+  <circle cx="1060" cy="70" r="185" fill="url(#glow)"/>
+  <circle cx="1120" cy="275" r="130" fill="#9b8cff" opacity=".08"/>
+  <path d="M780 0 L1200 0 L1200 320 L930 320 Z" fill="#ffffff" opacity=".025"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".5">
+    <path d="M865 74 L955 122 L1040 72 L1120 126 L1160 82"/>
+    <path d="M955 122 L960 220 L1060 270 L1120 210 L1120 126"/>
+    <path d="M1040 72 L1060 270"/>
+  </g>
+  <g fill="#38d6c5">
+    <circle cx="865" cy="74" r="7"/><circle cx="955" cy="122" r="6"/><circle cx="1040" cy="72" r="8"/>
+    <circle cx="1120" cy="126" r="6"/><circle cx="1160" cy="82" r="5"/>
+  </g>
+  <g fill="#a99cff">
+    <circle cx="960" cy="220" r="7"/><circle cx="1060" cy="270" r="8"/><circle cx="1120" cy="210" r="6"/>
+  </g>
+  <rect x="72" y="58" width="270" height="34" rx="17" fill="#ffffff" opacity=".09"/>
+  <circle cx="91" cy="75" r="5" fill="#38d6c5"/>
+  <text x="108" y="81" fill="#dce8ff" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2.2">DATA SCIENCE &amp; AI · JORDAN</text>
+  <text x="72" y="164" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing=".2">FARAH AL-MASA'DEH</text>
+  <rect x="72" y="187" width="82" height="4" rx="2" fill="url(#accent)"/>
+  <text x="72" y="229" fill="#d6e1f5" font-family="Arial, Helvetica, sans-serif" font-size="21">AI Agents  ·  Generative AI  ·  Workflow Automation</text>
+  <text x="72" y="265" fill="#91a5c7" font-family="Arial, Helvetica, sans-serif" font-size="15">Building practical AI solutions for real-world workflows</text>
+</svg>
