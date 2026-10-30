@@ -31,7 +31,6 @@ My work focuses on building practical solutions with **AI agents, multi-agent wo
 
 - 🤖 Building AI agent and multi-agent workflow projects.
 - ⚙️ Designing automations and API integrations with **n8n**.
-- 🧠 Exploring **LangChain, LangGraph, and LlamaIndex** through hands-on projects.
 - 👁️ Interested in computer vision and assistive AI.
 - 🌱 Continuously learning, experimenting, and documenting what I build.
 
@@ -61,12 +60,11 @@ A selection of projects across AI agents, workflow automation, and assistive AI.
 **AI, LLMs & Agent Workflows**
 
 <img src="https://img.shields.io/badge/AI_Agents-20232A?style=flat-square" alt="AI Agents"/>
-<img src="https://img.shields.io/badge/Generative_AI-6E56CF?style=flat-square" alt="Generative AI"/>
 
 **Automation & Integration**
 
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"/>
-<img src="https://img.shields.io/badge/REST_APIs-005571?style=flat-square" alt="REST APIs"/>
+<img src="https://img.shields.io/badge/API_Integrations-005571?style=flat-square" alt="API Integrations"/>
 <img src="https://img.shields.io/badge/Workflow_Automation-0E9F95?style=flat-square" alt="Workflow Automation"/>
 
 **Programming & Computer Vision**
@@ -83,6 +81,14 @@ A selection of projects across AI agents, workflow automation, and assistive AI.
 <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black" alt="Google Colab"/>
 
 </div>
+
+---
+
+## 💡 Areas of Interest
+
+مجالات أتابعها وأهتم بالتوسع فيها، ولا أدرجها هنا باعتبارها خبرة عملية مستقلة:
+
+- Generative AI — الذكاء الاصطناعي التوليدي.
 
 ---
 
