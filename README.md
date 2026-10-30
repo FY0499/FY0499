@@ -62,9 +62,6 @@ A selection of projects across AI agents, workflow automation, and assistive AI.
 
 <img src="https://img.shields.io/badge/AI_Agents-20232A?style=flat-square" alt="AI Agents"/>
 <img src="https://img.shields.io/badge/Generative_AI-6E56CF?style=flat-square" alt="Generative AI"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
-<img src="https://img.shields.io/badge/LangGraph-2D6A4F?style=flat-square" alt="LangGraph"/>
-<img src="https://img.shields.io/badge/LlamaIndex-6B4EFF?style=flat-square" alt="LlamaIndex"/>
 
 **Automation & Integration**
 
@@ -77,7 +74,6 @@ A selection of projects across AI agents, workflow automation, and assistive AI.
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
 <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square" alt="MediaPipe"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
 
 **Tools**
 
@@ -90,15 +86,18 @@ A selection of projects across AI agents, workflow automation, and assistive AI.
 
 ---
 
-## 📚 Current Learning Focus
+## 📚 Currently Learning
 
-| Area | Focus |
+I'm at the beginning of learning these technologies and currently building foundational knowledge. They are learning goals, not skills or tools I am claiming professional proficiency in yet.
+
+| Technology | Learning stage |
 |---|---|
-| **LangChain** | Building LLM-powered applications and retrieval workflows |
-| **LangGraph** | Designing stateful, multi-step agent workflows |
-| **LlamaIndex** | Exploring data-connected AI applications |
-| **TypeScript** | Strengthening typed application development |
-| **n8n** | Building reliable automations, integrations, and agent workflows |
+| **LangChain** | Beginner — learning the fundamentals |
+| **LangGraph** | Beginner — exploring graph-based agent workflows |
+| **LlamaIndex** | Beginner — learning the core concepts |
+| **TypeScript** | Beginner — learning the language fundamentals |
+
+I’ll move a technology into my main skills section only after I have used it in practical work.
 
 ---
 
