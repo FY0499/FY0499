@@ -32,7 +32,7 @@ I build practical projects using **AI agents, n8n, and computer vision**. Most o
 ## 🚀 Selected Projects
 
 | Project | Description |
-|---|---|
+|:--|:--|
 | [**Dobi Kitchen — Multi-Agent Assistant**](https://github.com/FY0499/Dobi-Kitchen-Multi-Agent-Assistant) | I built a Telegram assistant that routes customer requests to the right workflow for orders, cancellations, and delivery questions. |
 | [**Multi-Agent Management Orchestrator**](https://github.com/FY0499/Multi-Agent-Management-Orchestrator) | An n8n workflow that coordinates specialized agents to handle management-related requests. |
 | [**Smart Vision System**](https://github.com/FY0499/blind) | A computer vision project that detects objects and text, estimates relative distance, and provides Arabic audio guidance. |
@@ -76,9 +76,7 @@ I build practical projects using **AI agents, n8n, and computer vision**. Most o
 
 ## 📚 Currently Exploring
 
-**LangChain** · **LangGraph** · **LlamaIndex** · **TypeScript**
-
-through practical projects.
+LangChain, LangGraph, LlamaIndex, and TypeScript through practical projects.
 
 ---
 
@@ -86,14 +84,6 @@ through practical projects.
 
 I'm interested in connecting with people working on **AI, AI agents, and workflow automation**.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/farah-almasaadeh-a92a7b266">LinkedIn</a> •
-  <a href="https://fy0499.github.io/FY0499/portfolio/">Portfolio</a> •
-  <a href="https://github.com/FY0499">GitHub</a>
-</p>
-
-<div align="center">
-
-*Building, learning, and turning ideas into practical AI solutions.*
-
-</div>
+- **LinkedIn:** [farah-almasaadeh](https://www.linkedin.com/in/farah-almasaadeh-a92a7b266)
+- **Portfolio:** [Explore my projects](https://fy0499.github.io/FY0499/portfolio/)
+- **GitHub:** [@FY0499](https://github.com/FY0499)
