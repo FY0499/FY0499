@@ -1,72 +1,137 @@
-# Hi, I'm Farah Al-Masa’deh 👋
+<div align="center">
 
-### Data Science & AI Graduate | AI Agents & Automation
+<img src="./assets/profile-header.svg" alt="Farah Al-Masa'deh — Data Science and AI" width="100%" />
 
-📍 Aqaba, Jordan
+<p>
+  <a href="https://www.linkedin.com/in/farah-almasaadeh-a92a7b266">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://fy0499.github.io/FY0499/portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://github.com/FY0499">
+    <img src="https://img.shields.io/badge/GitHub-FY0499-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=FY0499&style=for-the-badge&color=0e9f95&label=PROFILE+VIEWS" alt="Profile views"/>
+</p>
 
-I'm a Data Science and AI graduate focused on building practical AI solutions, AI agents, and workflow automations that solve real-world problems.
+### Data Science & AI Graduate · AI Agents · Workflow Automation
 
-My current focus is **AI Agents, multi-agent systems, Generative AI, and workflow automation with n8n**. I'm building a portfolio of practical projects to explore how AI can support everyday business processes.
+*I build practical AI-powered workflows and explore how intelligent systems can solve real-world problems.*
 
-## 🚀 Featured Projects: AI Agents & Automation
+</div>
 
-My portfolio of n8n workflow projects covering multi-agent orchestration, customer support, content creation, business operations, and data extraction.
+---
 
-| # | Project | What it does |
+## 👋 About Me
+
+I'm a **Data Science & AI graduate** from **Al-Hussein Bin Talal University**, based in Aqaba, Jordan.
+
+My work focuses on building practical solutions with **AI agents, multi-agent workflows, Generative AI, and n8n automation**. I enjoy connecting AI capabilities with tools and APIs to streamline business processes, improve information handling, and create useful user experiences.
+
+- 🤖 Building AI agent and multi-agent workflow projects.
+- ⚙️ Designing automations and API integrations with **n8n**.
+- 🧠 Exploring **LangChain, LangGraph, and LlamaIndex** through hands-on projects.
+- 👁️ Interested in computer vision and assistive AI.
+- 🌱 Continuously learning, experimenting, and documenting what I build.
+
+---
+
+## 🚀 Featured Projects
+
+A selection of projects across AI agents, workflow automation, and assistive AI. Each repository includes its own scope, setup notes, and current limitations.
+
+| Project | What it explores | Technologies |
 |---|---|---|
-| 01 | [Dobi Kitchen Multi-Agent Assistant](https://github.com/FY0499/Dobi-Kitchen-Multi-Agent-Assistant) | Multi-agent workflow concept that routes food-business order, cancellation, and delivery requests to specialist agents. |
-| 02 | [Multi-Agent Management Orchestrator](https://github.com/FY0499/Multi-Agent-Management-Orchestrator) | Coordinates specialized agents to provide business insights and recommendations for management requests. |
-| 03 | [Telegram AI Customer Support](https://github.com/FY0499/Telegram-AI-Customer-Support) | Telegram-based AI support assistant designed to answer customer questions and route complex cases for human follow-up. |
-| 04 | [AI Content Repurposer](https://github.com/FY0499/AI-Content-Repurposer) | Converts source content into platform-specific drafts for LinkedIn, X, and Instagram. |
-| 05 | [AI Travel Planner](https://github.com/FY0499/AI-Travel-Planner) | A travel-planning workflow concept that uses trip preferences and external data sources to build an itinerary. |
-| 06 | [AI Phishing Email Triage](https://github.com/FY0499/AI-Phishing-Email-Triage) | Helps classify suspicious email content and route potential phishing messages for review. |
-| 07 | [Invoice Data Extraction](https://github.com/FY0499/Invoice-Data-Extraction) | Extracts structured information from invoice documents for validation and review. |
-| 08 | [Customer Satisfaction Automation](https://github.com/FY0499/Customer-Satisfaction-Automation) | Collects feedback, calculates NPS/CSAT metrics, and routes follow-up actions. |
-| 09 | [Order Processing & Inventory](https://github.com/FY0499/Order-Processing-Inventory) | Automates order-processing steps and inventory updates. |
-| 10 | [SHEIN Order Assistant](https://github.com/FY0499/Shein-Order-Assistant) | A Telegram-based assistant workflow for SHEIN links and order-related conversations. |
+| [**Dobi Kitchen — Multi-Agent Assistant**](https://github.com/FY0499/Dobi-Kitchen-Multi-Agent-Assistant) | Routes food-business customer requests to specialist paths for order, cancellation, and delivery support. | n8n · AI Agents · Telegram |
+| [**Multi-Agent Management Orchestrator**](https://github.com/FY0499/Multi-Agent-Management-Orchestrator) | Coordinates specialist agents to prepare management insights and recommendations. | n8n · Multi-Agent Design · Telegram |
+| [**Smart Vision System**](https://github.com/FY0499/blind) | Explores object detection, OCR, relative depth estimation, and Arabic audio guidance for assistive scenarios. | Python · OpenCV · Google Cloud Vision · MiDaS |
+| [**Sign-to-Text**](https://github.com/FY0499/Sign-to-Text) | Experimental video-analysis pipeline using hand/face landmarks and model-assisted interpretation. | Python · MediaPipe · OpenCV · Gemini |
+| [**Text-to-Sign-Language**](https://github.com/FY0499/Text-to-Sign-Language) | Assembles sign-language video clips from text using a sign dictionary and video processing. | Python · MoviePy · JSON |
+| [**AI Travel Planner**](https://github.com/FY0499/AI-Travel-Planner) | Workflow concept for collecting trip preferences and preparing an itinerary with external data. | n8n · AI · API Integrations |
 
-> **Project status:** These repositories may have different levels of implementation and testing. Please check each README for setup requirements, workflow files, and current validation status. They are portfolio projects and should be tested and configured before production use.
+> **Project maturity:** These repositories have different implementation and testing levels. Some are prototypes or workflow concepts and may require additional configuration and end-to-end validation. Check each repository's README for the current status before using or evaluating it.
 
-## 🧠 Currently Working On
+---
 
-- Building practical AI agent and multi-agent workflows.
-- Exploring LangChain, LangGraph, and LlamaIndex through hands-on projects.
-- Improving workflow automation with n8n and API integrations.
-- Growing a portfolio of practical AI projects and documenting what I learn.
+## 🧰 Technologies & Tools
 
-## 🧠 Areas of Interest
+<div align="center">
 
-- 🤖 AI Agents and Multi-Agent Systems
-- 🧠 Generative AI and Large Language Models (LLMs)
-- ⚙️ AI Workflow Automation with n8n
-- 🔌 API Integration and Workflow Design
-- 👁️ Computer Vision and Assistive AI
-- 🐍 Python and Machine Learning
+**AI, LLMs & Agent Workflows**
 
-## 🛠️ Technologies & Tools
+<img src="https://img.shields.io/badge/AI_Agents-20232A?style=flat-square" alt="AI Agents"/>
+<img src="https://img.shields.io/badge/Generative_AI-6E56CF?style=flat-square" alt="Generative AI"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/LangGraph-2D6A4F?style=flat-square" alt="LangGraph"/>
+<img src="https://img.shields.io/badge/LlamaIndex-6B4EFF?style=flat-square" alt="LlamaIndex"/>
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)](https://n8n.io/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FY0499/)
+**Automation & Integration**
 
-## ♿ Other AI Projects
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"/>
+<img src="https://img.shields.io/badge/REST_APIs-005571?style=flat-square" alt="REST APIs"/>
+<img src="https://img.shields.io/badge/Workflow_Automation-0E9F95?style=flat-square" alt="Workflow Automation"/>
 
-- [Blind](https://github.com/FY0499/blind) — Assistive computer vision project.
-- [TTS](https://github.com/FY0499/TTS) — Text-to-Speech project.
-- [STT](https://github.com/FY0499/STT) — Sign-language video analysis project.
+**Programming & Computer Vision**
 
-## 🌐 Portfolio Website
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+<img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square" alt="MediaPipe"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
 
-Explore my portfolio website for selected projects, technical interests, and contact links:
+**Tools**
 
-**[Visit my Portfolio](https://fy0499.github.io/FY0499/portfolio/)**
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+<img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=black" alt="Google Colab"/>
+
+</div>
+
+---
+
+## 📚 Current Learning Focus
+
+| Area | Focus |
+|---|---|
+| **LangChain** | Building LLM-powered applications and retrieval workflows |
+| **LangGraph** | Designing stateful, multi-step agent workflows |
+| **LlamaIndex** | Exploring data-connected AI applications |
+| **TypeScript** | Strengthening typed application development |
+| **n8n** | Building reliable automations, integrations, and agent workflows |
+
+---
+
+## 📊 GitHub Snapshot
+
+<div align="center">
+
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=FY0499&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="Farah's GitHub statistics"/>
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FY0499&layout=compact&hide_border=true&theme=transparent" alt="Most used languages"/>
+
+<br/>
+
+<img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=FY0499&hide_border=true&theme=transparent" alt="GitHub contribution streak"/>
+
+<br/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=FY0499&hide_border=true&theme=github-compact" alt="GitHub contribution activity"/>
+
+</div>
+
+---
 
 ## 🤝 Let's Connect
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/farah-almasaadeh-a92a7b266)
-- 🐙 [GitHub](https://github.com/FY0499)
+I'm interested in connecting with people working in **AI, agentic systems, and workflow automation**, sharing ideas, and learning through practical projects.
 
-I'm continuously learning, building, and sharing practical AI projects.
+- **LinkedIn:** [farah-almasaadeh](https://www.linkedin.com/in/farah-almasaadeh-a92a7b266)
+- **Portfolio:** [Explore my projects](https://fy0499.github.io/FY0499/portfolio/)
+- **GitHub:** [@FY0499](https://github.com/FY0499)
 
----
-⭐ Thanks for visiting my profile!
+<div align="center">
+
+*Building, learning, and turning ideas into practical AI solutions.*
+
+</div>
