@@ -17,7 +17,7 @@
 
 ### Data Science & AI Graduate · AI Agents · Workflow Automation
 
-*I build practical AI-powered workflows and explore how intelligent systems can solve real-world problems.*
+*I build AI-powered workflows and practical projects that solve real-world problems.*
 
 </div>
 
@@ -27,29 +27,29 @@
 
 I'm a **Data Science & AI graduate** from **Al-Hussein Bin Talal University**, based in Aqaba, Jordan.
 
-My work focuses on building practical solutions with **AI agents, multi-agent workflows, Generative AI, and n8n automation**. I enjoy connecting AI capabilities with tools and APIs to streamline business processes, improve information handling, and create useful user experiences.
+I work on practical projects using **AI agents, multi-agent workflows, computer vision, and n8n automation**. I enjoy connecting AI models with tools and APIs to build useful applications and automate everyday processes.
 
-- 🤖 Building AI agent and multi-agent workflow projects.
-- ⚙️ Designing automations and API integrations with **n8n**.
-- 👁️ Interested in computer vision and assistive AI.
-- 🌱 Continuously learning, experimenting, and documenting what I build.
+- 🤖 Building AI agent and multi-agent projects.
+- ⚙️ Creating workflows and API integrations with **n8n**.
+- 👁️ Working on computer vision and assistive AI projects.
+- 🌱 Learning new tools and improving through hands-on projects.
 
 ---
 
 ## 🚀 Featured Projects
 
-A selection of projects across AI agents, workflow automation, and assistive AI. Each repository includes its own scope, setup notes, and current limitations.
-
-| Project | What it explores | Technologies |
+| Project | Description | Technologies |
 |---|---|---|
-| [**Dobi Kitchen — Multi-Agent Assistant**](https://github.com/FY0499/Dobi-Kitchen-Multi-Agent-Assistant) | Routes food-business customer requests to specialist paths for order, cancellation, and delivery support. | n8n · AI Agents · Telegram |
-| [**Multi-Agent Management Orchestrator**](https://github.com/FY0499/Multi-Agent-Management-Orchestrator) | Coordinates specialist agents to prepare management insights and recommendations. | n8n · Multi-Agent Design · Telegram |
-| [**Smart Vision System**](https://github.com/FY0499/blind) | Explores object detection, OCR, relative depth estimation, and Arabic audio guidance for assistive scenarios. | Python · OpenCV · Google Cloud Vision · MiDaS |
-| [**Sign-to-Text**](https://github.com/FY0499/Sign-to-Text) | Experimental video-analysis pipeline using hand/face landmarks and model-assisted interpretation. | Python · MediaPipe · OpenCV · Gemini |
-| [**Text-to-Sign-Language**](https://github.com/FY0499/Text-to-Sign-Language) | Assembles sign-language video clips from text using a sign dictionary and video processing. | Python · MoviePy · JSON |
-| [**AI Travel Planner**](https://github.com/FY0499/AI-Travel-Planner) | Workflow concept for collecting trip preferences and preparing an itinerary with external data. | n8n · AI · API Integrations |
-
-> **Project maturity:** These repositories have different implementation and testing levels. Some are prototypes or workflow concepts and may require additional configuration and end-to-end validation. Check each repository's README for the current status before using or evaluating it.
+| [**Dobi Kitchen — Multi-Agent Assistant**](https://github.com/FY0499/Dobi-Kitchen-Multi-Agent-Assistant) | A Telegram assistant that routes customer requests for orders, cancellations, and delivery. | n8n · AI Agents · Telegram |
+| [**Multi-Agent Management Orchestrator**](https://github.com/FY0499/Multi-Agent-Management-Orchestrator) | Coordinates specialist agents for management-related requests. | n8n · AI Agents · Anthropic |
+| [**Smart Vision System**](https://github.com/FY0499/blind) | Detects objects and text, estimates relative depth, and provides Arabic audio guidance. | Python · OpenCV · Google Cloud Vision · MiDaS |
+| [**Sign-to-Text**](https://github.com/FY0499/Sign-to-Text) | Analyzes sign-language video and produces text and audio output. | Python · MediaPipe · OpenCV · Gemini |
+| [**Text-to-Sign-Language**](https://github.com/FY0499/Text-to-Sign-Language) | Converts written text or speech into a sign-language video. | Python · MoviePy · SpeechRecognition |
+| [**AI Travel Planner**](https://github.com/FY0499/AI-Travel-Planner) | Collects trip preferences and prepares a travel itinerary using external data. | n8n · Google Gemini · APIs |
+| [**SHEIN Order Assistant**](https://github.com/FY0499/Shein-Order-Assistant) | Helps customers submit and confirm SHEIN orders through Telegram. | n8n · Telegram · Google Gemini |
+| [**AI Phishing Email Triage**](https://github.com/FY0499/AI-Phishing-Email-Triage) | Analyzes emails, assigns a risk score, and alerts about potential phishing. | n8n · Gmail · Gemini |
+| [**Invoice Data Extraction**](https://github.com/FY0499/Invoice-Data-Extraction) | Extracts structured invoice information from PDF files. | n8n · Google Gemini · PDF |
+| [**AI Content Repurposer**](https://github.com/FY0499/AI-Content-Repurposer) | Turns one source text into posts for different social platforms. | n8n · Groq · Google Sheets |
 
 ---
 
@@ -57,7 +57,7 @@ A selection of projects across AI agents, workflow automation, and assistive AI.
 
 <div align="center">
 
-**AI, LLMs & Agent Workflows**
+**AI & Agent Workflows**
 
 <img src="https://img.shields.io/badge/AI_Agents-20232A?style=flat-square" alt="AI Agents"/>
 
@@ -86,36 +86,26 @@ A selection of projects across AI agents, workflow automation, and assistive AI.
 
 ## 📚 Currently Learning
 
-I'm at the beginning of learning these technologies and currently building foundational knowledge. They are learning goals, not skills or tools I am claiming professional proficiency in yet.
-
-| Technology | Learning stage |
+| Technology | Focus |
 |---|---|
-| **LangChain** | Beginner — learning the fundamentals |
-| **LangGraph** | Beginner — exploring graph-based agent workflows |
-| **LlamaIndex** | Beginner — learning the core concepts |
-| **TypeScript** | Beginner — learning the language fundamentals |
-
-I’ll move a technology into my main skills section only after I have used it in practical work.
+| **LangChain** | Building applications with language models |
+| **LangGraph** | Creating graph-based agent workflows |
+| **LlamaIndex** | Connecting AI models with data |
+| **TypeScript** | Learning the language fundamentals |
 
 ---
 
 ## 📊 GitHub Snapshot
 
 <div align="center">
-
-
-<br/>
-
 <img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=FY0499&hide_border=true&theme=transparent" alt="GitHub contribution streak"/>
-
-
 </div>
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm interested in connecting with people working in **AI, agentic systems, and workflow automation**, sharing ideas, and learning through practical projects.
+I'm always interested in connecting with people working in **AI, AI agents, and workflow automation**.
 
 - **LinkedIn:** [farah-almasaadeh](https://www.linkedin.com/in/farah-almasaadeh-a92a7b266)
 - **Portfolio:** [Explore my projects](https://fy0499.github.io/FY0499/portfolio/)
