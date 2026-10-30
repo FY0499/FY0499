@@ -84,14 +84,6 @@ A selection of projects across AI agents, workflow automation, and assistive AI.
 
 ---
 
-## 💡 Areas of Interest
-
-مجالات أتابعها وأهتم بالتوسع فيها، ولا أدرجها هنا باعتبارها خبرة عملية مستقلة:
-
-- Generative AI — الذكاء الاصطناعي التوليدي.
-
----
-
 ## 📚 Currently Learning
 
 I'm at the beginning of learning these technologies and currently building foundational knowledge. They are learning goals, not skills or tools I am claiming professional proficiency in yet.
