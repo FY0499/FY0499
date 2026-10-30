@@ -105,16 +105,11 @@ I’ll move a technology into my main skills section only after I have used it i
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=FY0499&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="Farah's GitHub statistics"/>
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FY0499&layout=compact&hide_border=true&theme=transparent" alt="Most used languages"/>
 
 <br/>
 
 <img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=FY0499&hide_border=true&theme=transparent" alt="GitHub contribution streak"/>
 
-<br/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=FY0499&hide_border=true&theme=github-compact" alt="GitHub contribution activity"/>
 
 </div>
 
